@@ -1,9 +1,15 @@
 # Doc Converter
 
+<div align="center">
+
+![Doc Converter Banner](assets/banner.svg)
+
 [![CI](https://github.com/Xhenzouu/doc-converter/actions/workflows/build.yml/badge.svg)](https://github.com/Xhenzouu/doc-converter/actions/workflows/build.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/tests-290%20passing-brightgreen?logo=pytest&logoColor=white)](#development)
+
+</div>
 
 A native Windows file converter with right-click context menu integration. Convert documents, images, and data files instantly, without opening an app or installing anything extra.
 

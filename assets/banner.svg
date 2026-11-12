@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#09090b"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Text: Title -->
+  <text x="80" y="290" fill="#ffffff" font-family="Inter, -apple-system, sans-serif" font-weight="800" font-size="72" letter-spacing="-1">DOC CONVERTER</text>
+  
+  <!-- Text: Tagline -->
+  <text x="80" y="350" fill="#a1a1aa" font-family="Inter, -apple-system, sans-serif" font-weight="400" font-size="28">Right-click file conversion for Windows.</text>
+
+  <!-- Icon: Two Overlapping Files with Arrow -->
+  <g transform="translate(850, 200)">
+    <!-- Back File Outline -->
+    <path d="M 20 0 L 110 0 L 150 40 L 150 200 L 130 200 L 130 210 L 20 210 Z" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linejoin="round" opacity="0.4"/>
+    <!-- Front File Outline -->
+    <path d="M 0 20 L 90 20 L 130 60 L 130 220 L 0 220 Z" fill="#09090b" stroke="#3b82f6" stroke-width="6" stroke-linejoin="round"/>
+    <!-- File Corner Fold -->
+    <path d="M 90 20 L 90 60 L 130 60" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linejoin="round"/>
+    <!-- Center Arrow -->
+    <path d="M 40 120 L 85 120 M 70 105 L 85 120 L 70 135" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
